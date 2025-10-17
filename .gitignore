@@ -1,0 +1,96 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# --- FastAPI / Uvicorn / Gunicorn ---
+*.log
+*.pid
+*.seed
+*.cover
+*.coverage
+*.db
+instance/
+.env
+.env.*
+.envrc
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+.uvicorn.log
+*.sqlite3
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- MyPy / Pyright / Type Checking ---
+.mypy_cache/
+.pyright/
+.dmypy.json
+dmypy.json
+
+# --- Pytest / Unit Tests ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# --- Build / Distribution ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Notebooks / Temp files ---
+.ipynb_checkpoints
+*.tmp
+*.bak
+*.swp
+
+# --- Docker ---
+*.pid
+docker-compose.override.yml
+.dockerignore
+
+# --- Local Data ---
+data/
+uploads/
+media/
+staticfiles/
+logs/
+
+# --- PyCharm ---
+.idea/
+*.iml
+
+# --- Optional: Secrets / Configs ---
+config.json
+secrets.json
+keys.json
